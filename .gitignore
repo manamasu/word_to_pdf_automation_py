@@ -29,3 +29,4 @@ htmlcov/
 
 exports/**
 *.docx
+automation_log.txt

@@ -26,3 +26,9 @@ pip install -r requirements.txt
 ```
 
 Make sure to put your Word document e.g., (`template.docx`) inside the root directory
+
+Now run the Script by using:
+
+```bash
+python interactive_export.py
+```

@@ -6,7 +6,6 @@ from helper import send_email, log_to_file
 
 
 def convert_word_to_pdf(word_filename: str, pdf_filename: str):
-    print("STARTED SCRIPT")
     word_path = os.path.abspath(word_filename)
     output_dir = os.path.abspath("exports")
     os.makedirs(output_dir, exist_ok=True)
